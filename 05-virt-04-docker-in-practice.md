@@ -118,7 +118,7 @@ SQL-запрос в таблице `requests` видны внешние IP-ад�
 
 ![SQL-запрос на сервере: внешние IP в таблице requests](dz02-shots/d4-06-sql-external-ip.png)
 
-Ссылка на созданный fork: **https://github.com/starikam/shvirtd-example-python**
+Ссылка на созданный fork: https://github.com/starikam/shvirtd-example-python
 ---
 
 ## Задача 6
