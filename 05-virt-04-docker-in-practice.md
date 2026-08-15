@@ -108,7 +108,17 @@ done
 echo "Сервис не ответил за 60 секунд, смотрите: docker compose logs"
 exit 1
 ```
+Проект развёрнут этим скриптом на облачной ВМ (клонирование в `/opt/shvirtd-example-python`, `docker compose up -d --build`).
 
+Проверка через check-host.net. Разослан по 25 узлам в разных странах, 24 из 25 вернули `code=200`:
+
+![проверка через check-host.net](dz02-shots/d4-04-checkhost.png)
+
+SQL-запрос в таблице `requests` видны внешние IP-адреса проверяющих узлов :
+
+![SQL-запрос на сервере: внешние IP в таблице requests](dz02-shots/d4-06-sql-external-ip.png)
+
+Ссылка на созданный fork: **https://github.com/starikam/shvirtd-example-python**
 ---
 
 ## Задача 6
